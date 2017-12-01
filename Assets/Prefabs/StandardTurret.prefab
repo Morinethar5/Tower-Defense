@@ -20,7 +20,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4754261060467536}
   - component: {fileID: 114498304975203226}
-  - component: {fileID: 114539262484301768}
   m_Layer: 0
   m_Name: StandardTurret
   m_TagString: Untagged
@@ -140,7 +139,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1156315468156744}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 59.98, y: 0.5, z: -15.029}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4017773018389434}
@@ -265,16 +264,3 @@ MonoBehaviour:
   bulletPrefab: {fileID: 1341897257475012, guid: 0152906967a60014db2b059bc4b74418,
     type: 2}
   firePoint: {fileID: 4962962427796032}
---- !u!114 &114539262484301768
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1156315468156744}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62e715f72ae2d1d4285077928dc2d3d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0, b: 0, a: 0}
-  posOffset: {x: 0, y: 0, z: 0}
