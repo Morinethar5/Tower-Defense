@@ -15,10 +15,6 @@ public class BuildManager : MonoBehaviour {
 
 	private TurretBlueprint turretToBuild;
 
-	public GameObject standardTurretPrefab;
-	public GameObject missileTurretPrefab;
-	public GameObject laserTurretPrefab;
-
 	public GameObject buildEffect;
 
 	public bool CanBuild { get { return turretToBuild != null; } }
