@@ -3239,7 +3239,7 @@ Prefab:
     - target: {fileID: 224589915722692414, guid: f5f9482e733de4bbb9a52f7d770306a9,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 18.184998
       objectReference: {fileID: 0}
     - target: {fileID: 224589915722692414, guid: f5f9482e733de4bbb9a52f7d770306a9,
         type: 2}
@@ -7577,7 +7577,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startMoney: 400
-  startLives: 1
+  startLives: 10
 --- !u!114 &1018333690
 MonoBehaviour:
   m_ObjectHideFlags: 0
