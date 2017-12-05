@@ -3234,12 +3234,12 @@ Prefab:
     - target: {fileID: 224589915722692414, guid: f5f9482e733de4bbb9a52f7d770306a9,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: -3.9000244
+      value: -3.899994
       objectReference: {fileID: 0}
     - target: {fileID: 224589915722692414, guid: f5f9482e733de4bbb9a52f7d770306a9,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 18.184998
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224589915722692414, guid: f5f9482e733de4bbb9a52f7d770306a9,
         type: 2}
@@ -4241,7 +4241,7 @@ Prefab:
     - target: {fileID: 224589915722692414, guid: f5f9482e733de4bbb9a52f7d770306a9,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 84.49997
+      value: 84.5
       objectReference: {fileID: 0}
     - target: {fileID: 224589915722692414, guid: f5f9482e733de4bbb9a52f7d770306a9,
         type: 2}
@@ -6265,8 +6265,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 848204321}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 345.5, y: 338.5, z: 0}
-  m_LocalScale: {x: 1.1283333, y: 1.1283333, z: 1.1283333}
+  m_LocalPosition: {x: 214.5, y: 244, z: 0}
+  m_LocalScale: {x: 0.81333333, y: 0.81333333, z: 0.81333333}
   m_Children:
   - {fileID: 1119518150}
   - {fileID: 2131351958}
@@ -7536,6 +7536,7 @@ MonoBehaviour:
     rate: 3
   timeBetweenWaves: 2
   waveCountdownText: {fileID: 147923653}
+  gameManager: {fileID: 1018333690}
   spawnPoint: {fileID: 670887992}
 --- !u!4 &1018333687
 Transform:
@@ -7577,7 +7578,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startMoney: 400
-  startLives: 10
+  startLives: 1
 --- !u!114 &1018333690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7590,6 +7591,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOverUI: {fileID: 2131351957}
+  nextLevel: _Level02
+  levelToUnlock: 2
+  sceneFader: {fileID: 1507304036}
 --- !u!114 &1018333691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8786,12 +8790,12 @@ Prefab:
     - target: {fileID: 224738917997480534, guid: 01e162b9750a64441b53f413a8eb8972,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 345.5
+      value: 214.5
       objectReference: {fileID: 0}
     - target: {fileID: 224738917997480534, guid: 01e162b9750a64441b53f413a8eb8972,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 338.5
+      value: 244
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 01e162b9750a64441b53f413a8eb8972, type: 2}
